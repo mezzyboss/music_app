@@ -19,12 +19,14 @@ jobs:
         with:
           submodules: true
           lfs: false
-
+          
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-
+      - name: Navigate to folder
+        run: cd project_music_player
+        
       - name: Install dependencies
         run: npm install
 
