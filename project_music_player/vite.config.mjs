@@ -18,6 +18,5 @@ export default defineConfig({
         assetFileNames: 'assets/[name]-[hash].[ext]'
       }
     }
-  },
-  exclude: [ '**/node_modules/**']
+  }
 });
